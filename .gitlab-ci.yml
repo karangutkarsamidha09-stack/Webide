@@ -1,0 +1,4 @@
+build-steps:
+    script:
+        - echo "first step in build"
+        - echo "seco step in build"
