@@ -1,4 +1,11 @@
 build-steps:
     script:
-        - echo "first step in build"
-        - echo "seco step in build"
+        - echo "this is frist build step"
+testing-job:
+    script:
+        - echo "frist step in testing"
+        - echo "second step in testing"
+
+deploy-job:
+    script:
+        - echo "frist step in deploy"
